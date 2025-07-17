@@ -12,4 +12,10 @@ dependencies = ["numpy"]
 [project.optional-dependencies]
 test = ["pytest"]
 
+project.optional_dependencies
+test = ["pytest"]
+
+[tool.hatch]
+version.path = "src/example_package_lphan/__init__.py"
+
 
